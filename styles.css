@@ -1,0 +1,52 @@
+/* Dashboard Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.dashboard-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0077b6;
+}
+
+.card-title {
+    color: #023e8a;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+h1 {
+    color: #023e8a;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .metric-value {
+        font-size: 1.5rem;
+    }
+    
+    .card-title {
+        font-size: 1.1rem;
+    }
+} 
