@@ -9,9 +9,9 @@ A responsive web dashboard for monitoring water consumption patterns with intera
 - 📱 Responsive design for all devices
 - 🎯 Key metrics display
 - 🔄 Auto-updating data visualization
-
+adddd
 ## Tech Stack
-what is up
+hello world
 - HTML5
 - CSS3
 - JavaScript
